@@ -4,12 +4,15 @@ let source;
 
 switch(window.location.pathname) {
     case "/Manga.html":
+    case "/manga":
         source = mangaList;
         break;
     case "/LN.html":
+    case "/ln":
         source = lnList;
         break;
     case "/Merch.html":
+    case "/merch":
         source = merchList;
         break;
 }
