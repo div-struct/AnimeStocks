@@ -1,1 +1,1 @@
-# AnimeStocks.github.io
+https://animestocks.tk
