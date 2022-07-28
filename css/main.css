@@ -13,7 +13,6 @@ body {
 /* NAVBAR */
 header {
     width: 100%;
-    height: 70px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -26,10 +25,22 @@ header {
 }
 
 #logo {
-    width: 200px;
+    width: 12vw;
     cursor: pointer;
-    padding-top: 5px;
-    margin-left: 20px;
+    padding: 1vw;
+    margin-left: 1.5vw;
+}
+
+.incategories > input {
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: #F2F2F2;
+    padding: .3vw;
+    width: 25vw;
+    height: 2vw;
 }
 
 #navbar {
@@ -38,10 +49,14 @@ header {
     justify-content: center;
 }
 
+ul li:last-of-type {
+    padding-right: 2.5vw;
+}
+
 li {
     display: inline-block;
-    padding: 0 20px;
-    font-size: 20px;
+    padding: 0 1.5vw;
+    font-size: 1.5vw;
 }
 
 a {
@@ -52,7 +67,7 @@ a {
 
 li a:hover {
     position: relative;
-    top: 5px;
+    top: -5px;
     color: grey;
 }
 
@@ -68,11 +83,10 @@ li a:hover {
 /* BODY */
 #body {
     background-color: #dce7ec;
-    height: 550px;
     border-radius: 20px;
-    margin-top: 45px;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-top: 3vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 .bodypic {
@@ -81,10 +95,12 @@ li a:hover {
     justify-content: center;
     width: 100%;
     height: 100%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 #pic1 {
-    width: 60%;
+    width: 60vw;
 }
 
 #pic2 {
@@ -100,57 +116,69 @@ li a:hover {
     font-family: 'Manrope';
 }
 
-.manga > p {
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+.featuredtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredtitle > button {
+    cursor: pointer;
+    padding: .5vw;
+    font-size: 1.2vw;
+    width: 10vw;
+    height: 3.5vw;
+    border-radius: 50px;
+    border: 5px solid;
+    background-color: white;
+}
+
+h2 {
+    font-size: 3vw;
+    margin-bottom: 2vw;
 }
 
 .manga .maincontainer {
-    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    height: 35vw;
 }
 
 .maincontainer .container {
-    width: 200px;
+    width: 15vw;
+    height: 30vw;
     cursor: pointer;
-    margin: 10px;
     padding: 10px;
-    border: 1px solid black;
     transition: .2s;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .maincontainer .container:hover {
     transition: .2s;
-    position: relative;
     top: -14px;
     transform: scale(1.1);
+    background-color: #dce7ec;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
 }
 
 .container > a > img {
-    width: 200px;
-    height: 225px;
+    width: 15vw;
+    height: 16vw;
 }
 
-.description :first-child {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-family: 'Manrope';
+.description {
+    height: 40%;
+    font-size: 2vw;
 }
 
-.description p, span {
-    font-size: 25px;
-    font-family: 'Manrope';
-    color: black;
+.price {
+    font-size: 1.9vw;
 }
 
 /* BANNER SECTION */
 .banner img {
-    margin-top: 75px;
+    margin: 8vw 0 8vw 0;
     width: 100%;
     cursor: pointer;
     transition: .2s;
@@ -166,35 +194,30 @@ li a:hover {
     margin: 0 50px;
     text-align: left;
     font-size: 25px;
-    margin-top: 75px;
-}
-
-.novel > p {
-    font-size: 28px;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 .novel .maincontainer {
-    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 /* FOOTER */
 .footer {
     background-color: rgb(205, 205, 205);
-    height: 125px;
-    margin-top: 50px;
+    margin-top: 10vw;
+}
+
+.footercol {
+    padding: 2vw 0;
 }
 
 .footer img {
-    width: 225px;
+    width: 15vw;
 }
 
 .footer p {
-    font-size: 13px;
+    font-size: 1vw;
 }
 
 .social {
@@ -202,14 +225,8 @@ li a:hover {
 }
 
 .social a img {
-    width: 40px;
-    margin: 0 5px;
-}
-
-.social p {
-    font-size: 24px;
-    margin-bottom: 15px;
-    font-weight: bold;
+    width: 3vw;
+    margin: 0 .7vw;
 }
 
 .footerimg {
@@ -224,16 +241,8 @@ li a:hover {
     text-align: center;
 }
 
-.footercol p:last-child {
-    margin-top: 10px;
-}
-
 .footer p a {
-    color: blue;
-}
-
-.footer p a:hover {
-    text-decoration: underline;
+    color: red;
 }
 
 #flogo:hover {
@@ -241,10 +250,9 @@ li a:hover {
 }
 
 @media (max-width: 799px) {
-
     /* NAVBAR */
     #logo {
-        width: 180px;
+        width: 30vw;
         padding: 5px;
         margin-left: 20px;
     }
@@ -271,6 +279,11 @@ li a:hover {
 
     #navbar li {
         margin-bottom: 25px;
+        font-size: 3.5vw;
+    }
+
+    li {
+        font-size: 5vw;
     }
 
     #menu {
@@ -300,6 +313,7 @@ li a:hover {
         flex-direction: column;
         max-width: 100%;
         height: 100%;
+        margin-top: 5vw;
     }
 
     .bodypic {
@@ -307,32 +321,49 @@ li a:hover {
     }
     
     #pic1 {
-        width: 60%;
+        width: 70%;
     }
     
     #pic2 {
         width: 30%;
     }
 
+    .incategories > input {
+        display: none;
+    }
+
     /* MANGA */
     .manga {
         margin: 0 25px;
-        text-align: left;
         font-size: 25px;
         margin-top: 50px;
     }
 
-    .manga > p {
-        font-size: 30px;
-        margin-top: 15px;
-        margin-bottom: 10px;
+    .featuredtitle > button {
+        border: 3px solid;
+    }
+
+    .maincontainer .container {
+        width: 16vw;
+        height: 38vw;
+        cursor: pointer;
+        padding: 7px;
+        transition: .2s;
+    }
+
+    .container > a > img {
+        width: 15vw;
+        height: 22vw;
+    }
+
+    .description {
+        height: 35%;
+        font-size: 2vw;
     }
 
     /* BANNER */
     .banner img {
-        margin-top: 50px;
-        width: 100%;
-        transition: .2s;
+        margin: 8vw 0 5vw 0;
     }
 
     /* NOVEL */
@@ -343,21 +374,51 @@ li a:hover {
         margin-top: 45px;
     }
 
-    .novel > p {
-        font-size: 23px;
-        margin-top: 15px;
-        margin-bottom: 10px;
+    .container > a > img {
+        width: 16vw;
+        height: 20vw;
     }
 
     /* FOOTER */
-    .footer {
-        background-color: rgb(205, 205, 205);
-        height: 125px;
-        margin-top: 25px;
+    .footerimg {
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
+
+    .footercol img {
+        width: 30vw;
+        text-align: center;
+    }
+
+    .footercol p {
+        font-size: 2vw;
+    }
+
+    .social a img {
+        width: 5vw;
+    }
+
+    .links {
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .links ul li {
+        font-size: 2.5vw;
+        margin: 25px 0 25px 0;
+    }
+
+    .footercol {
+        order: 1;
+    }
+
+    .social {
+        order: 2;
     }
 }
 
-@media (max-width: 554px) {
+@media (max-width: 430px) {
     /* BODY */
     #body {
         display: flex;
@@ -382,6 +443,15 @@ li a:hover {
     }
 
     /* MANGA */
+    .manga .maincontainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 200vw;
+        padding: 0 2vw 0 2vw;
+    }
+
     .manga {
         margin: 0 25px;
         text-align: left;
@@ -389,33 +459,43 @@ li a:hover {
         margin-top: 50px;
     }
 
-    .manga p {
-        font-size: 23px;
+    h2 {
+        font-size: 6vw;
     }
 
     /* CONTAINER */
     .maincontainer .container {
-        width: 150px;
+        width: 35vw;
+        height: 58vw;
+        cursor: pointer;
+        padding: 10px;
+        transition: .2s;
     }
 
     .container > a > img {
-        width: 150px;
-        height: 160px;
+        width: 35vw;
+        height: 35vw;
     }
 
-    .description :first-child {
-        font-size: 15px;
+    .featuredtitle > button {
+        font-size: 2.7vw;
+        width: 20vw;
+        height: 5vw;
+        border: 2px solid;
     }
 
-    .description > span {
-        font-size: 22px;
+    .description {
+        height: 28%;
+        font-size: 3vw;
+    }
+
+    .price {
+        font-size: 2.7vw;
     }
 
     /* BANNER */
     .banner img {
-        margin-top: 50px;
-        transition: .2s;
-        width: 100%;
+        margin: 10vw 0 10vw 0;
     }
 
     #banner {
@@ -433,101 +513,21 @@ li a:hover {
         font-size: 25px;
     }
 
-    .novel .maincontainer {
-        padding: 5px;
-    }
-
     /* FOOTER */
     .footercol img {
-        width: 180px;
-        text-align: center;
+        width: 40vw;
     }
 
-    .social p {
-        font-size: 20.5px;
+    .footercol p {
+        font-size: 2.5vw;
     }
 
     .social a img {
-        width: 32px;
-    }
-}
-
-@media (max-width: 443px) {
-    /* CONTAINER */
-    .maincontainer .container {
-        max-width: 140px;
-        margin: 5px;
+        width: 10vw;
     }
 
-    .container > a > img {
-        width: 140px;
-        height: 150px;
-    }
-
-    .description :first-child {
-        font-size: 13px;
-    }
-
-    .description > span {
-        font-size: 19px;
-    }
-
-    /* FOOTER */
-    .footercol img {
-        width: 150px;
-    }
-
-    .social p {
-        font-size: 18px;
-    }
-
-    .social a img {
-        width: 30px;
-    }
-}
-
-@media (max-width: 414px) {
-    /* CONTAINER */
-    .maincontainer .container {
-        max-width: 120px;
-    }
-
-    .container > a > img {
-        width: 120px;
-        height: 140px;
-    }
-
-    .description :first-child {
-        font-size: 12px;
-    }
-
-    .description > span {
-        font-size: 15px;
-    }
-
-    /* BANNER */
-    #banner {
-        margin-left: -90px;
-    }
-}
-
-@media (max-width: 401px) {
-    /* FOOTER */
-    .footer {
-        height: 230px;
-        margin-top: 25px;
-    }
-
-    .footercol img {
-        width: 200px;
-    }
-
-    .social p {
-        font-size: 20px;
-    }
-
-    .social a img {
-        width: 30px;
+    .links ul li {
+        font-size: 3.3vw;
     }
 }
 
