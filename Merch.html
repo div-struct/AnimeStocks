@@ -9,11 +9,17 @@
     <title>Merch</title>
 </head>
 <body>
-        <!-- NAVIGATION -->
+    <!-- NAVIGATION -->
     <header>
         <div class="logo">
             <img id="logo" src="/pic/logo.png" alt="Logo" title="Hello there >.<">
         </div>
+
+        <!-- SEARCH BAR -->
+        <div class="incategories">
+            <input type="text" name="" id="search-item" placeholder="Search products" onkeyup="search()">
+        </div>
+
             <ul id="navbar">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/Manga.html">Manga</a></li>
@@ -27,33 +33,88 @@
             </div>
     </header>
 
-    <!-- MAIN AREA -->
-    <main>
-        <h3>Updated: 12/07/2022</h3>
-        <h1>Merch</h1>
+    <!-- BODY -->
+    <section id="body">
+        <div class="bodypic">
+            <img id="pic1" src="https://drive.google.com/uc?id=1TpLdbDdiVqFwtSsfdDywliAYqL0O33Q8" alt="">
+            <img id="pic2" src="https://drive.google.com/uc?id=1T6xo8abm6FlgMVELxPMteJffS5GliVxU" alt="">
+        </div>
+    </section>
 
-        <!-- CATEGORIES -->
-        <div id="categories">
-            <ul class="categories">
-                <li class="list active" data-filter="all">All</li>
-                <li class="list" data-filter="tshirt">T-shirt</li>
-                <li class="list" data-filter="hoodie">Hoodie</li>
-                <li class="list" data-filter="figure">Anime Figurues</li>
-                <li class="list" data-filter="other">Others</li>
-            </ul>
+    <!-- PRODUCT AREA -->
+    <main id="main_doc" class="reveal">
+        <div class="update">
+            <div class="lilupdate">
+            <img src="https://drive.google.com/uc?id=1HWtOM93UueTb6LxgafVr-MXXMrQ8U7Hn" alt="">
+                <h1>Manga</h1>
+                <h3>Updated: 28/07/2022</h3>
+            </div>
 
             <!-- SEARCH BAR -->
-            <div class="incategories">
+            <div class="incategories2">
                 <input type="text" name="" id="search-item" placeholder="Search products" onkeyup="search()">
+            </div>
+
+            <div id="categories">
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="drama">Drama</li>
+                <li class="list" data-filter="romance">Romance</li>
+                <li class="list" data-filter="fantasy">Fantasy</li>
+                <li class="list" data-filter="action">Action</li>
+                <li class="list" data-filter="other">Others</li>
+            </ul>
+            </div>
+
+            <div class="featuredtitle">
+                <button><a href="#">Find Manga</a></button>
             </div>
         </div>
 
         <div id="container">
             <div id="compiler">
-                <!-- managed by items.js -->
             </div>
         </div>
+
+        <!-- BANNER SECTION -->
+        <section id="banner" class="reveal">
+            <div class="banner">
+                <a href="/Merch.html" target="_blank">
+                    <img src="/pic/banner.png" alt="Banner_Image">
+                </a>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="footerimg">
+                <div class="footercol">
+                    <img src="/pic/logo.png" alt="">
+                    <p>&copy; Copyright 2022 Anime Stocks</p>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/AnimestocksPH">
+                        <img src="/pic/flogo.png" alt="Facebook" title="Facebook" id="flogo">
+                    </a>
+                    <a href="m.me/AnimestocksPH">
+                        <img src="/pic/mlogo.png" alt="Messenger" title="Messenger" id="flogo">
+                    </a>
+                    <a href="mailto:animestcks.@gmail.com">
+                        <img src="/pic/glogo.png" alt="Gmail" title="Gmail" id="flogo">
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
+
     <script src="/js/items/merch.js"></script>
     <script src="/js/items.js"></script>
     <script src="/js/main.js"></script>
