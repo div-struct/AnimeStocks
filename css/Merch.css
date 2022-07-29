@@ -431,7 +431,7 @@ input {
 
     /* PRODUCTS */
     .item {
-        height: 38vw;
+        height: 43vw;
     }
 
     .item img {
@@ -440,7 +440,7 @@ input {
     }
 
     .description {
-        height: 40%;
+        height: 45%;
         font-size: 1.9vw;
     }
 
