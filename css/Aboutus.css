@@ -3,21 +3,16 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Manrope';
-    background-image: url(/pic/panel2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top;
 }
 
-/* top menu bar */
+/* NAVBAR */
 header {
     width: 100%;
-    height: 70px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -26,15 +21,26 @@ header {
     top: 0;
     left: 0;
     z-index: 2;
-    margin: 0 0 0 0;
     box-shadow: 0 0 7px 0;
 }
 
 #logo {
-    width: 200px;
+    width: 12vw;
     cursor: pointer;
-    padding-top: 5px;
-    margin-left: 20px;
+    padding: 1vw;
+    margin-left: 1.5vw;
+}
+
+.incategories > input {
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: #F2F2F2;
+    padding: .3vw;
+    width: 25vw;
+    height: 2vw;
 }
 
 #navbar {
@@ -43,10 +49,14 @@ header {
     justify-content: center;
 }
 
+ul li:last-of-type {
+    padding-right: 2.5vw;
+}
+
 li {
     display: inline-block;
-    padding: 0 20px;
-    font-size: 20px;
+    padding: 0 1.5vw;
+    font-size: 1.5vw;
 }
 
 a {
@@ -57,7 +67,7 @@ a {
 
 li a:hover {
     position: relative;
-    top: 5px;
+    top: -5px;
     color: grey;
 }
 
@@ -70,131 +80,263 @@ li a:hover {
     display: none;
 }
 
+/* CONTENTS */
+
+#aninfo {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 2vw 0 2vw;
+}
+
+#aninfo img {
+    width: 98%;
+    height: 30vw;
+}
+
+/* ANIMESTOCKS INFO */
 #about {
-    margin: 6% 0 0 6%;
-    max-width: 40%;
-    padding: 5px;
-    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw 0 2vw;
 }
 
-h1 {
+#teaminfo {
+    width: 50%;
+    height: 100%;
     text-align: center;
+    padding: 5vw 6vw 0 6vw;
+}
+
+#teaminfo h1 {
+    font-size: 3vw;
+    padding: 0 0 1.5vw 0;
+}
+
+#teaminfo p {
+    font-size: 1.5vw;
+}
+
+#teaminfo2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teaminfo2 img {
+    width: 95%;
+    height: 20vw;
+    position: relative;
+    top: -5vw;
+    right: -1vw;
+}
+
+#kodo {
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-right: 10vw;
+}
+
+#code {
+    width: 40%;
+    height: auto;
+}
+
+#code img {
+    width: 95%;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 30px;
+    position: relative;
+    top: -7.5vw;
+}
+
+/* ANIMESTOCKS TEAM INFO */
+
+#us {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 0 2vw 2vw 2vw;
+    position: relative;
+    top: -4vw;
+}
+
+#container {
+    width: 45vw;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#profile {
+    margin: 0 0 8vw 2vw;
+}
+
+#profpic {
+    width: 35%;
+    height: 20vw;
+}
+
+#profpic img {
+    width: 100%;
+    height: 15vw;
+}
+
+#info {
+    width: 65%;
+    height: auto;
+}
+
+#details h2 {
+    font-size: 1.5vw;
+}
+
+#details h1 {
+    font-size: 2.6vw;
+}
+
+#details p {
+    color:#0d153a;
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+#details button {
+    width: auto;
+    height: auto;
+    background-color: #0d153a;
+    border-radius: 20px;
+    color: white;
     font-weight: bold;
+    border: none;
+    padding: 0.2vw 0.7vw 0.2vw 0.7vw;
 }
 
-#about a {
-    color: blue;
+#links i {
+    font-size: 3vw;
+    color: black;
+    vertical-align: middle;
+    margin: 0 1vw 0 0;
 }
 
-#about a:hover {
-    text-decoration: underline;
+#links button {
+    width: 9vw;
+    height: auto;
+    border: 3.8px solid black;
+    background-color: white;
+    color: black;
+    padding: 0.3vw;
+    font-size: 1.3vw;
 }
 
-@media (max-width: 1111px) {
-    #about {
-        margin: 0 0 0 80px;
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
+#links button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #0d153a;
+    border: none;
+    color:white;
 }
 
-@media (max-width: 799px) {
+#links i:hover {
+    transform: scale(1.2);
+}
 
-    /* NAVBAR */
-    #logo {
-        width: 180px;
-        padding: 5px;
-        margin-left: 20px;
+@media (max-width: 425px) {
+    /* INFORMATIONs */
+    #teaminfo {
+        position: relative;
+        top: -3vw;
+        text-align: justify;
     }
 
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        top: 0;
-        right: -400px;
-        height: 100vh;
-        width: 300px;
-        position: fixed;
-        background-color: #eaeff1;
-        box-shadow: 0 40px 60px rgb(0, 0, 0, 0.5);
-        padding: 80px 0 0 10px;
-        transition: .4s;
+    #teaminfo h1 {
+        font-size: 4vw;
+        padding: 0 0 1.5vw 0;
+    }
+    
+    #teaminfo p {
+        font-size: 2.3vw;
     }
 
-    #navbar.active {
-        right: 0;
+    #teaminfo2 img {
+        width: auto;
+        height: 25vw;
+        top: -10vw;
+        right: 1vw;
     }
 
-    #navbar li {
-        margin-bottom: 25px;
+    #code img {
+        width: auto;
+        height: 25vw;
+        top: -18vw;
+        right: 8vw;
     }
 
-    #menu {
-        display: flex;
-        align-items: center;
-    }
-
-    #menu img {
-        width: 25px;
-        margin-right: 25px;
-    }
-
-    #close {
-        display: flex;
-        position: absolute;
-        top: 25px;
-        left: 25px;
-    }
-
-    #close img {
-        width: 35px;
+    /* Team INFO */
+    #us {
+        display: block;
+        top: -12vw;
     }
 
     #container {
-        max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: auto;
     }
 
-    #about {
-        margin: 0 0 0 80px;
-        margin-top: 30px;
-        margin-bottom: 50px;
+    #profile {
+        margin: 0 0 10vw 1vw;
     }
-}
 
-@media (max-width: 690px) {
-    #about {
-        margin: 0 0 0 50px;
-        margin-top: 40px;
-        max-width: 350px;
-        margin-bottom: 50px;
+    #profpic > #profile {
+        width: 40%;
+        height: 20vw;
     }
-}
 
-@media (max-width: 459px) {
-    #about {
-        margin: 0 0 0 50px;
-        margin-top: 50px;
-        max-width: 75%;
-        margin-bottom: 50px;
+    #profpic img {
+        width: 100%;
+        height: 35vw;
+        position: relative;
+        top: -18vw;
     }
-}
 
-@media (max-width: 380px) {
-    #about {
-        margin: 0 0 0 40px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    #info {
+        width: 60%;
     }
-}
 
-@media (max-width: 321px) {
-    #about {
-        margin: 0 0 0 35px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    #details h2 {
+        font-size: 4vw;
+    }
+    
+    #details h1 {
+        font-size: 7vw;
+    }
+    
+    #details p {
+        font-size: 3vw;
+    }
+    
+    #details button {
+        padding: 1vw 2.5vw 1vw 2.5vw;
+    }
+
+    #links i {
+        font-size: 7vw;
+        margin: 0 5vw 0 0;
+    }
+    
+    #links button {
+        width: 29vw;
+        font-size: 4vw;
     }
 }
