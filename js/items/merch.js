@@ -348,5 +348,12 @@ const merchList = [
         "image": "/merch/product50.png",
         "description": "One Piece XDF 15TH Edition Zoro Figure",
         "price": "₱349.00"
-    }
+    },
+    {
+        "class": " ",
+        "link": "https://invle.co/cld1z1i",
+        "image": " ",
+        "description": "",
+        "price": ""
+    },
 ];
