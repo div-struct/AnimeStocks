@@ -462,6 +462,76 @@ const merchList = [
         "price": "₱699"
     },
     {
+        "class": "figure",
+        "link": "https://invle.co/cld2i0l",
+        "image": "/merch/product67.png",
+        "description": "16cm One Piece Hawk-eye Mihawk action figure",
+        "price": "₱259"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2ig9",
+        "image": "/merch/product68.png",
+        "description": "One Piece Luffy, Law, Zoro, Sanji, Ace, Nami, Sabo Grandista",
+        "price": "₱179 - ₱259"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2ijz",
+        "image": "/merch/product69.png",
+        "description": "Genshin impact figure Shogun Yunjin Shenhe The lady La Signora Itto Acrylic stand",
+        "price": "₱160"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2j05",
+        "image": "/merch/product70.png",
+        "description": "36cm One Piece Roronoa Zoro action figure with box",
+        "price": "₱245 - ₱1,384"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2j4f",
+        "image": "/merch/product71.png",
+        "description": "Demon Slayer GK Large Blood Domen",
+        "price": "₱1,259"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jat",
+        "image": "/merch/product72.png",
+        "description": "Demon Slayer Nezuko Kamado Tanjirou",
+        "price": "₱115"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jcr",
+        "image": "/merch/product73.png",
+        "description": "Attack on Titan Levi Mikasa Eren Ackerman PVC Figure Anime Action Figure",
+        "price": "₱739"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jdx",
+        "image": "/merch/product74.png",
+        "description": "Demon Slayer Sword CosPlay Sword 104cm Tanjiro Zenitsu Sword",
+        "price": "₱209 - ₱395"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jfd",
+        "image": "/merch/product75.png",
+        "description": "Demon Slayer Figure Action Figure Tanjiro",
+        "price": "₱149"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jgj",
+        "image": "/merch/product76.png",
+        "description": "One Piece Roronoa Zoro Figur Three-knife Fighting",
+        "price": "₱256 - ₱360"
+    },
+    {
         "class": " ",
         "link": "https://invle.co/cld1z1i",
         "image": " ",
