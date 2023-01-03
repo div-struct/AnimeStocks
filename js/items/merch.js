@@ -540,7 +540,7 @@ const merchList = [
     },
     {
         "class": " ",
-        "link": "https://invol.co/clep1wh",
+        "link": "https://invl.io/clfms3o",
         "image": " ",
         "description": "",
         "price": ""
